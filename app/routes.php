@@ -13,7 +13,8 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	//return View::make('hello');
+    return View::make('index');
 });
 
 Route::get('/books', function() {
@@ -54,4 +55,4 @@ Route::get('/practice', function() {
 
     echo Pre::render($fruit,'Fruit');
 
-});
+}); 
